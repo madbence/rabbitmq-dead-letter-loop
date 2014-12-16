@@ -1,0 +1,23 @@
+{
+  "name": "rabbitmq-dead-letter-loop",
+  "version": "1.0.0",
+  "description": "Test dead letter queues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madbence/rabbitmq-dead-letter-loop"
+  },
+  "author": "Bence Dányi <bence@danyi.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madbence/rabbitmq-dead-letter-loop/issues"
+  },
+  "homepage": "https://github.com/madbence/rabbitmq-dead-letter-loop",
+  "dependencies": {
+    "amqp": "^0.2.0",
+    "co": "^4.0.1"
+  }
+}
